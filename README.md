@@ -30,13 +30,13 @@ python -u main.py \
 --method 0shot
 ```
 And here is an example for computing the score of the tested llm and prompting method:
-'''
+```
 python -u compute_final_score.py \
 --data_dir ../data \
 --variable forward_belief \
 --model_name gpt-3.5-turbo-0125 \
 --method 0shot
-'''
+```
 
 Notice that *0shot* corresponds to the prompting method proposed by us.
 See the comments within the soure code for more details about using the code.
